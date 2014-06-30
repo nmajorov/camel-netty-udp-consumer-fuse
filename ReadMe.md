@@ -1,4 +1,4 @@
-##Example of udp consumer for the JBoss Fuse
+##Example of netty udp consumer for the JBoss Fuse
 
 
 Build it with a command:
@@ -27,7 +27,7 @@ See in the logs if netty consumer is started:
 		
 
 Curerntly it's listen on the localhost and port 1234. To use multicast ip and other port please change the **features.xml** file.
-I test it with ruby command, but you can send with any language something on port 1234:
+I test it with ruby command, but you can send some text with any programm on port 1234 and  see the output in JBoss Fuse log:
 
 
 			nikolajrovsmbp4:~ nmajorov$ irb 
