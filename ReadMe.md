@@ -23,9 +23,9 @@ See in the logs if netty consumer is started:
 		2014-06-12 23:57:28,409 | INFO  | xtenderThread-12 | OsgiBundleXmlApplicationContext  | ?                                   ? | 121 - org.apache.servicemix.bundles.spring-context - 3.2.8.RELEASE_1 | Publishing application context as OSGi service with properties {org.springframework.context.service.name=biz.majorov.camel.nm-camel-udp-fuse, Bundle-SymbolicName=biz.majorov.camel.nm-camel-udp-fuse, Bundle-Version=1.0.0}
 		2014-06-12 23:57:28,419 | INFO  | xtenderThread-12 | ContextLoaderListener            | ?                                   ? | 145 - org.springframework.osgi.extender - 1.2.1 | Application context successfully refreshed (OsgiBundleXmlApplicationContext(bundle=biz.majorov.camel.nm-camel-udp-fuse, config=osgibundle:/META-INF/spring/*.xml))
 		^C
-		
 
-I test it with ruby command, but you can send with any language somwthing on udp port 1234:
+
+I test it with ruby command, but you can send with any language, just send somewthing on udp port 1234:
 
 
 			nikolajrovsmbp4:~ nmajorov$ irb 
