@@ -9,7 +9,6 @@
       "name": "Nikolaj Majorov",
       "email": "nikolaj@majorov.biz"
     }
-    }
   ],
   "build_trigger":{
       "every":"5m"
